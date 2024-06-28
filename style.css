@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');
+body{
+    background-color: azure;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    filter: brightness(.9);
+    color: aliceblue;
+}
+
+nav ul li{
+    padding: 0 10px;
+}
+
+.logo img{
+    width: 55px;
+    height: 53px;
+    padding: 0 7px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.icons{
+    margin: 12px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+.container{
+    min-height: 74.2vh;
+    background-color: black;
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    /* margin: 20px auto; 
+    width: 80%;
+    border-radius: 18px; */
+    padding: 25px;
+    background-image: url('./bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+.songList{
+    padding-left: 120px;
+}
+    
+
+#musicBar{
+    width: 80%;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-image: linear-gradient(to left top, #3385ff, #d174e0, #ff74aa, #ff947a, #febe66);
+    width: 100%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.songItem img{
+    width: 40px;
+    margin: 0 23px;
+    border-radius: 30px;
+}
+
+.timestamp{
+    margin: 0 33px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+

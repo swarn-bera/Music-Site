@@ -1,0 +1,2 @@
+volume button
+blur effect on header and footer
