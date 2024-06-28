@@ -1,1 +1,0 @@
-Developed a dynamic and interactive music website that allows users to explore and enjoy a wide range of music tracks. The project includes features such as user authentication, music streaming, and playlist management.
